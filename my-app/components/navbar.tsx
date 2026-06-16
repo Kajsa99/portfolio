@@ -15,7 +15,6 @@ import { cn } from "@/lib/utils";
 
 const navItems = [
   { href: "/", label: "About me" },
-  { href: "/gallery", label: "Gallery" },
   { href: "/contact", label: "Contact" },
 ] as const;
 
