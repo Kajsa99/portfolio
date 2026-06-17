@@ -154,9 +154,60 @@ export const projects: Project[] = [
   {
     slug: "e-jalakas",
     title: "Case E. Jalakas",
+    headerImage: {
+      src: projectImages.eJalakasHeader,
+      alt: "Artist painting outdoors at an easel on a sunny patio.",
+      size: "full",
+      orientation: "long",
+    },
+    content: [
+      {
+        type: "text",
+        text: "This project is a custom website built for an artist, designed to showcase and sell their work while giving them full control to manage content independently. The goal was a site that felt personal and professional, supported direct communication between the artist and potential buyers, and could grow over time as new content types, like blog posts, were added. You can visit the website at www.jalakasart.se",
+      },
+      {
+        type: "text",
+        text: "I chose this stack deliberately: Next.js, TypeScript, and ShadCN built on the JavaScript foundation from my education, while Supabase and Vercel let me handle the database, authentication, and deployment within one connected ecosystem.",
+      },
+      {
+        type: "text",
+        text: "Rather than jumping straight into code, I started with design, building wireframes in Figma and defining a color and typography system before writing a single line of the actual site. This let me test UI and UX early, when changes are cheap, rather than after development.",
+      },
+      {
+        type: "text",
+        text: "I grounded the visual design in core design principles (contrast, balance, repetition, emphasis, and spacing) to guide readability and focus. For the interactive layer, I applied UX principles: simplicity, consistency, clear navigation and feedback, accessibility, and user control (making sure people could always step back or cancel an action).",
+      },
+      {
+        type: "text",
+        text: "The project includes an admin dashboard with secure authentication and file upload, letting the artist add and edit content without touching code. I built scalable, reusable components for both the admin menu and content forms, designed so new categories or content types, like a future blog, can be added without restructuring the system. The content structure uses menu subcategories that mirror how the artist organizes their work, balancing flexibility with simplicity. A communication channel between visitors and the artist supports the core business goal of converting interest into sales.",
+      },
+      {
+        type: "text",
+        text: "The biggest technical challenge was the admin system itself: combining authentication, file handling, and a content structure flexible enough to scale, while still matching the custom design. I solved this by designing components to be reusable from the start, rather than building one-off solutions for each content type.",
+      },
+      {
+        type: "text",
+        text: "The bigger lesson came from process, not code. I invested more time than planned perfecting the design before development began, because I wanted it to feel genuinely personal rather than templated. Some of those design choices turned out to be costly: when I tested the site with real users, the feedback was clear: simplify, move toward a more minimal and standard layout. I took that feedback seriously and revised the design, but only after sinking significant time into details that should have been validated earlier.",
+      },
+      {
+        type: "text",
+        text: "That experience reinforced something I now build into every project: test early, test often. Getting design and functionality in front of real users before committing to full development saves time and leads to a result that actually feels natural to the people using it, not just to the person who built it.",
+      },
+      {
+        type: "text",
+        text: "Full-stack development with Next.js, TypeScript, and Supabase; UI/UX design grounded in established design and usability principles; building scalable, maintainable component architecture; and iterating based on real user feedback rather than assumptions.",
+      },
+    ],
     description: [
-      "Add your first paragraph for Case E Jalakas here.",
-      "Add a second section as another paragraph when you are ready.",
+      "This project is a custom website built for an artist, designed to showcase and sell their work while giving them full control to manage content independently. The goal was a site that felt personal and professional, supported direct communication between the artist and potential buyers, and could grow over time as new content types, like blog posts, were added.",
+      "I chose this stack deliberately: Next.js, TypeScript, and ShadCN built on the JavaScript foundation from my education, while Supabase and Vercel let me handle the database, authentication, and deployment within one connected ecosystem.",
+      "Rather than jumping straight into code, I started with design, building wireframes in Figma and defining a color and typography system before writing a single line of the actual site. This let me test UI and UX early, when changes are cheap, rather than after development.",
+      "I grounded the visual design in core design principles (contrast, balance, repetition, emphasis, and spacing) to guide readability and focus. For the interactive layer, I applied UX principles: simplicity, consistency, clear navigation and feedback, accessibility, and user control (making sure people could always step back or cancel an action).",
+      "The project includes an admin dashboard with secure authentication and file upload, letting the artist add and edit content without touching code. I built scalable, reusable components for both the admin menu and content forms, designed so new categories or content types, like a future blog, can be added without restructuring the system. The content structure uses menu subcategories that mirror how the artist organizes their work, balancing flexibility with simplicity. A communication channel between visitors and the artist supports the core business goal of converting interest into sales.",
+      "The biggest technical challenge was the admin system itself: combining authentication, file handling, and a content structure flexible enough to scale, while still matching the custom design. I solved this by designing components to be reusable from the start, rather than building one-off solutions for each content type.",
+      "The bigger lesson came from process, not code. I invested more time than planned perfecting the design before development began, because I wanted it to feel genuinely personal rather than templated. Some of those design choices turned out to be costly: when I tested the site with real users, the feedback was clear: simplify, move toward a more minimal and standard layout. I took that feedback seriously and revised the design, but only after sinking significant time into details that should have been validated earlier.",
+      "That experience reinforced something I now build into every project: test early, test often. Getting design and functionality in front of real users before committing to full development saves time and leads to a result that actually feels natural to the people using it, not just to the person who built it.",
+      "Full-stack development with Next.js, TypeScript, and Supabase; UI/UX design grounded in established design and usability principles; building scalable, maintainable component architecture; and iterating based on real user feedback rather than assumptions.",
     ],
   },
   {

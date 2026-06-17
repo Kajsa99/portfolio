@@ -21,6 +21,7 @@ import inlandstagIntroductionImage from "@/public/images/inlandstag-introduction
 import inlandstagSafetyRulesImage from "@/public/images/inlandstag-safety-rules.png";
 import inlandstagTrainLandscapeImage from "@/public/images/inlandstag-train-landscape.png";
 import bovisionRedesignDesktopImage from "@/public/images/bovision-redesign-desktop.png";
+import eJalakasHeaderImage from "@/public/images/e-jalakas-header.jpeg";
 
 export const projectImages = {
   bovisionAdLayouts: bovisionAdLayoutsImage,
@@ -46,4 +47,5 @@ export const projectImages = {
   inlandstagIntroduction: inlandstagIntroductionImage,
   inlandstagSafetyRules: inlandstagSafetyRulesImage,
   inlandstagTrainLandscape: inlandstagTrainLandscapeImage,
+  eJalakasHeader: eJalakasHeaderImage,
 };
